@@ -1,0 +1,12 @@
+# Do not create  Nginx deployment  YAML file Just run this 
+sudo kubectl create deployment nginx --image=nginx
+
+# create service for this deploy
+sudo kubectl create service nodeport nginx --tcp=80:80
+
+# check deploy 
+kubectl get deploy 
+
+# check service 
+kubectl get svc
+
