@@ -10,3 +10,9 @@ kubectl get deploy
 # check service 
 kubectl get svc
 
+
+modife nginx genrtae yaml deployment create by systeme 
+
+kubectl get deploy -n nginx nginx -o yaml > f1.txt
+
+
