@@ -1,0 +1,6 @@
+# best practice create a name space 'virtual cluster'
+
+kubectl create namespace <name>
+
+kubectl get ns
+
